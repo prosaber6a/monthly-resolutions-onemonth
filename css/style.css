@@ -1,0 +1,150 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clear {
+  clear: both;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  background: url("../images/notebook.png"); /* add a fallback color of #d6d6d6 */
+  color: #000000;
+  font-family: "Lato", sans-serif;
+  line-height: 1.7; /* line-height is unit-less */
+  font-size: 100%;
+}
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+.conainer {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+.headersection {
+  margin: 40px 0;
+}
+
+.headersection h1 {
+  font-weight: 800;
+  font-size: 50px;
+  letter-spacing: -0.1ch;
+  margin-bottom: 0;
+  line-height: 1.5ch;
+}
+
+.headersection p {
+  margin: 0;
+}
+
+.mainsection {
+  background-color: white;
+  padding: 20px;
+  width: 690px;
+  float: left;
+  margin-right: 10px;
+}
+
+.post {
+  margin-bottom: 40px;
+}
+
+.post h2 {
+  font-size: 35px;
+  font-weight: 500;
+}
+.post img {
+  width: 100%;
+}
+
+.excerpt {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.author {
+  color: #9f9d9d;
+}
+
+.sidebar {
+  width: 300px;
+  float: left;
+  background: white;
+  padding: 20px;
+}
+
+.widget {
+  margin-bottom: 30px;
+}
+
+.widget img {
+  border-radius: 50%;
+}
+
+.widget p {
+  font-size: 15px;
+}
+
+.widget h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.widget ul {
+}
+.widget ul li {
+}
+
+.widget ul li a {
+  color: #ec6147;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.widget blockquote {
+  border-left: 3px solid #abaaaa;
+  padding-left: 24px;
+  margin: 5px 0 5px 6px;
+}
+
+.widget blockquote p {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.footer {
+  margin: 20px 0;
+}
+
+.footer a {
+  color: #ec6147;
+  text-decoration: none;
+}
